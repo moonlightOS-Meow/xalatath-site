@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import pfp from './xalatath-pfp.png'
 
 function App() {
   const [glitch, setGlitch] = useState(false)
@@ -24,7 +25,7 @@ function App() {
 
           <div className="mx-auto w-52 h-52 mb-10 md2-card overflow-hidden border border-red-700">
             <img 
-              src="/xalatath-pfp.png" 
+              src={pfp} 
               alt="XALATATH" 
               className={`w-full h-full object-cover ${glitch ? 'glitch' : ''}`}
             />
