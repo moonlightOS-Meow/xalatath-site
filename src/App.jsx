@@ -14,10 +14,10 @@ function App() {
   }, [])
 
   const projects = [
-    { name: 'S3RLINUX CREDO', desc: 'Gentoo-based horror-SCP distro', link: 'https://github.com/moonlightOS-Meow/s3rlinux' },
-    { name: 'DMC Toolkit', desc: 'Tools for Dante Must Cry', link: 'https://github.com/moonlightOS-Meow/dmc-toolkit' },
-    { name: 'Vergil Bot', desc: 'Discord bot for Devil May Cry fans', link: 'https://github.com/moonlightOS-Meow/vergil-bot' },
-    { name: 'AI Dungeon', desc: 'Tales of AI torture', link: '#' },
+    { name: 'S3RLINUX', desc: 'S3RL-themed Gentoo Stage 4 distro. Rave-styled terminal environment with custom kernel and branding.', link: 'https://github.com/moonlightOS-Meow/s3rlinux' },
+    { name: 'moonlightOS', desc: 'Minimal Debian distro with NO DESKTOP. NO HANDHOLDING.', link: 'https://github.com/moonlightOS-Meow/moonlightos-meow' },
+    { name: 'CREDO', desc: '[CLASSIFIED] S3RLINUX - ANOMALY 7000-CREDO', link: 'https://github.com/moonlightOS-Meow/PROJECT-CREDO-REDACTED' },
+    { name: 'xalatath-site', desc: 'This very website (WIP)', link: 'https://github.com/moonlightOS-Meow/xalatath-site' },
   ]
 
   const chaosLinks = [
