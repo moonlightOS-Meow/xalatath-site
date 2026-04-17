@@ -22,9 +22,7 @@ function App() {
 
   const chaosLinks = [
     { name: 'GitHub', link: 'https://github.com/moonlightOS-Meow' },
-    { name: 'Discord', link: 'https://discord.gg/xalatath' },
-    { name: 'Telegram', link: 'https://t.me/xalatath' },
-    { name: 'Email', link: 'mailto:xalatath@chaos.dev' },
+    { name: 'Email', link: 'mailto:ash8820@proton.me' },
   ]
 
   const renderContent = () => {
